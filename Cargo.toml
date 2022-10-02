@@ -1,0 +1,12 @@
+[package]
+name = "punk_craft"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.8.0", features = ["dynamic"] }
+
+[package.metadata.cross.target.x86_64-unknown-linux-gnu]
+xargo = false
+image = "test-image"
+runner = "custom-runner"
